@@ -86,7 +86,7 @@ public class XiYanApiClient {
      * @return
      */
     public String getRandomJoke() {
-        HttpResponse httpResponse = HttpRequest.get(GATEWAY_HOST + "/api/joke")
+        HttpResponse httpResponse = HttpRequest.get(GATEWAY_HOST + "/api/music")
                 .addHeaders(headerMap(EXTRA_BODY))
                 .body(EXTRA_BODY)
                 .execute();
